@@ -1,0 +1,27 @@
+# Secrets & Local Environment
+.env
+backend/.env
+*.env
+
+# Node.js
+node_modules/
+backend/node_modules/
+npm-debug.log*
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/build/
+mobile/ephemeral/
+mobile/linux/flutter/ephemeral/
+mobile/windows/flutter/ephemeral/
+mobile/macos/Flutter/ephemeral/
+
+# Coverage
+coverage/
+backend/coverage/
+
+# OS Files
+.DS_Store
+Thumbs.db
