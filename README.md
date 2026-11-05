@@ -452,18 +452,7 @@ Ejecución acumulativa de todas las pruebas del cliente móvil con `flutter test
 
 ![E2-09: Regresión Completa Flutter](<Evidencias/etapa-2-mobile-cicd/E2-09-pruebas-regresion-suite-completa.png>)
 
----
 
-### ¿Qué archivos se deben entregar además de las capturas?
-1. **Código fuente completo:** Directorio `backend/` y directorio `mobile/`.
-2. **Docker Compose:** `backend/compose.yaml` y `backend/docker-compose.yml`.
-3. **Esquema de Base de Datos:** `backend/prisma/schema.prisma`.
-4. **Variables de entorno de ejemplo:** `backend/.env.example` (sin contraseñas ni secretos reales).
-5. **Pruebas automatizadas:** Directorio `backend/tests/` y `mobile/test/`.
-6. **Documentación:** `README.md`.
-7. **Especificación OpenAPI:** `backend/openapi.yaml`.
-
----
 
 ### Enfoque de Evidencias (Full-Stack vs Solo Frontend)
 - **Full-Stack (Proyecto Completo):** Se demuestra Front-End (Flutter), Back-End (Node.js/Express) y Base de Datos (PostgreSQL/Prisma) según la lista documentada arriba.
