@@ -7,6 +7,9 @@
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
     "test": "jest --runInBand --detectOpenHandles --forceExit",
+    "test:coverage": "jest --coverage --runInBand --detectOpenHandles --forceExit",
+    "test:unit": "jest tests/unit --runInBand",
+    "test:integration": "jest tests/integration --runInBand --detectOpenHandles --forceExit",
     "db:migrate": "prisma migrate dev",
     "db:generate": "prisma generate"
   },

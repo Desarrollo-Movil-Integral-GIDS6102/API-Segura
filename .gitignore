@@ -25,3 +25,8 @@ backend/coverage/
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Ignored Documentation
+EVIDENCIAS.md
+GUIA_EJECUCION.md
+
